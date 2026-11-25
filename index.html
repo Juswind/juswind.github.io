@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Andrews Rajkumar | EDI Integration & AI Solutions Portfolio</title>
+  <title>Andrews Rajkumar | Senior Business Analyst — Supply Chain, ERP & TMS</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
   <style>
@@ -12,13 +12,16 @@
       font-family: 'Inter', sans-serif;
     }
     .glass-card {
-      background: rgba(30, 41, 59, 0.7);
+      background: rgba(15, 23, 42, 0.75);
       backdrop-filter: blur(12px);
-      border: 1px solid rgba(148, 163, 184, 0.15);
+      border: 1px solid rgba(34, 211, 238, 0.16);
+    }
+    .glass-card:hover {
+      border-color: rgba(34, 211, 238, 0.45);
     }
   </style>
 </head>
-<body class="bg-slate-950 text-slate-100 antialiased selection:bg-blue-500 selection:text-white">
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-cyan-500 selection:text-slate-950">
 
   <!-- =====================================================================
        EASY-EDIT CONFIGURATION SECTION
@@ -29,76 +32,98 @@
     const PORTFOLIO_DATA = {
       profile: {
         name: "Andrews Rajkumar",
-        role: "EDI Integration Specialist & No-Code AI App Builder",
-        tagline: "Bridging global freight forwarding operations with automated ANSI X12 integrations and multimodal AI solutions.",
+        role: "Senior Business Analyst | Supply Chain, ERP & TMS Workflows",
+        badge: "CargoWise (CCP) • Google Certified Data Analyst • Process & Requirements Design",
+        tagline: "Transforming supply chain, ERP & TMS workflows through end-to-end project implementation, requirements engineering, Pan-India MIS reporting, and ANSI X12 data specifications.",
         location: "Chennai, India",
-        email: "mailto:juswind.andrews@gmail.com", // Replace with your email
+        email: "mailto:juswind.andrews@gmail.com",
         linkedin: "https://www.linkedin.com/in/andrews-rajkumar-393378249/",
-        github: "https://github.com/Juswind/juswind.github.io/", // Replace with your GitHub profile URL
-        youtube: "https://www.youtube.com/@AndrewsRajkumarEDI" // Replace with your YouTube channel URL
+        github: "https://github.com/Juswind/juswind.github.io/",
+        youtube: "https://www.youtube.com/@AndrewsRajkumarEDI"
       },
 
       stats: [
-        { label: "X12 Transaction Sets", value: "110–856" },
-        { label: "AI Mobile Apps Built", value: "2+ Live" },
-        { label: "Domain Focus", value: "Freight & EDI" },
-        { label: "Certifications", value: "5+ Verified" }
+        { label: "Industry Experience", value: "19+ Yrs" },
+        { label: "Accounts Onboarded", value: "65+ Global" },
+        { label: "CargoWise Tier", value: "CCP Certified" },
+        { label: "Recognition", value: "Star Performer" }
       ],
 
       projects: [
         {
+          title: "End-to-End ERP, CRM & In-House Project Implementations",
+          category: "Project Implementation",
+          description: "Owned full functional delivery across enterprise rollouts including SmartConnect, SimpleLog ERP enhancements, Salesforce CRM nationwide deployment, and E-Customs initiatives.",
+          highlights: [
+            "Elicited business requirements and translated them into clear functional specs for developers",
+            "Led User Acceptance Testing (UAT), output validation, and post-launch hypercare",
+            "Authored user manuals and conducted structured training to drive role clarity and adoption"
+          ],
+          tags: ["Requirements Engineering", "UAT Leadership", "User Training", "CargoWise & ERP"]
+        },
+        {
+          title: "Pan-India MIS & Executive Financial/KPI Reporting",
+          category: "MIS & Analytics",
+          description: "Solely spearheaded enterprise-wide Management Information Systems across all Indian branches, querying multi-million-record Oracle databases to power executive decision-making.",
+          highlights: [
+            "Delivered P&L analysis, debtor/aging analysis, and operational KPI dashboards",
+            "Audited revenue data and calculated annual sales performance incentives",
+            "Certified in Google Data Analytics with formal training in Microsoft Power BI"
+          ],
+          tags: ["Pan-India MIS", "P&L & Debtor Analysis", "SQL & Oracle", "Google Data Analytics"]
+        },
+        {
+          title: "B2B Freight Forwarding EDI X12 Integration Workflows",
+          category: "EDI X12 & Logistics",
+          description: "Translated complex customer and carrier business rules into structured ANSI X12 functional specifications and automated CargoWise data pipelines across 65+ global accounts.",
+          highlights: [
+            "Managed X12 004010 specifications (110, 210, 214, 310, 315, 850, 856) for Air & Ocean",
+            "Onboarded tier-one retail brands including J.Crew, Levi's, HanesBrands, and Bestseller",
+            "Eliminated manual re-keying and improved shipment milestone accuracy"
+          ],
+          tags: ["ANSI X12 (004010)", "CargoWise", "Altova MapForce", "Partner Onboarding"]
+        },
+        {
+          title: "ANSI X12 004010 EDI Validator Mobile App",
+          category: "AI & Validation Tools",
+          description: "Designed and built an Android validation utility using Google AI Studio to help analysts and operations teams audit X12 payload structure and mandatory segments before testing.",
+          highlights: [
+            "Supports 110, 210, 214, 310, 315, 850, and 856 transaction sets (Version 004010)",
+            "Audits ISA/IEA, GS/GE, and ST/SE control envelopes and detects missing qualifiers",
+            "Accelerates pre-production debugging and reduces partner testing cycles"
+          ],
+          tags: ["ANSI X12", "Google AI Studio", "Data Validation", "Android"]
+        },
+        {
           title: "CargoSurveyor: Visual Defect & Container Inspector",
-          category: "AI Mobile App",
-          description: "An Android multimodal inspection assistant built with Google AI Studio and Jetpack Compose. Evaluates multi-angle container and cargo photos simultaneously to detect structural damage, seal breaches, and hazard label issues.",
+          category: "AI & Validation Tools",
+          description: "Multimodal inspection assistant built with Google AI Studio and Jetpack Compose that cross-examines multi-angle container and cargo photos into a structured inspection report.",
           highlights: [
-            "Multi-angle photo correlation (front, rear doors, walls, HSS seal)",
-            "Deterministic JSON reporting (Pass/Warn/Fail, Severity, Action Steps)",
-            "On-device image downscaling to prevent OOM errors"
+            "Multi-angle photo correlation (front, rear doors, walls, HSS bolt seal)",
+            "Structured Pass/Warn/Fail severity grading and corrective action steps",
+            "Practical application of human-in-the-loop AI workflows for logistics QA"
           ],
-          tags: ["Google AI Studio", "Gemini Multimodal", "Kotlin", "Jetpack Compose"]
+          tags: ["Google AI Studio", "Multimodal AI", "Logistics QA", "Jetpack Compose"]
         },
         {
-          title: "ANSI X12 004010 EDI Validator App",
-          category: "AI Mobile App",
-          description: "Mobile EDI syntax and element-level auditing tool designed for logistics and supply chain engineers. Validates envelope integrity and mandatory element rules on the go.",
+          title: "Supply Chain Process Improvement & BA Video Series",
+          category: "BA Thought Leadership",
+          description: "Educational YouTube videos and visual LinkedIn frameworks covering ERP/TMS selection, As-Is vs. To-Be workflow redesign, freight forwarding formulas, and practical AI readiness.",
           highlights: [
-            "Supports 110, 210, 214, 310, 315, 850, and 856 (Version 004010)",
-            "Audits ISA/IEA, GS/GE, and ST/SE control envelopes",
-            "Catches truncated segments and missing mandatory qualifiers"
+            "Actionable frameworks for evaluating operational, human, and financial ERP fit",
+            "Real-world As-Is vs. To-Be process optimization breakdowns and KPI guides"
           ],
-          tags: ["ANSI X12", "004010", "Structured Outputs", "Android"]
-        },
-        {
-          title: "B2B Freight Forwarding EDI Integration Pipelines",
-          category: "EDI & Logistics",
-          description: "End-to-end electronic data interchange mapping and integration workflows connecting shippers, carriers, and freight forwarders for seamless milestone visibility and invoicing.",
-          highlights: [
-            "Automated data transformation using Altova mapping tools",
-            "Streamlined shipment status (214/315) and freight billing (110/210/310)",
-            "Reduced manual re-keying errors across operational workflows"
-          ],
-          tags: ["Altova MapForce", "XMLSpy", "CargoWise", "B2B Integration"]
-        },
-        {
-          title: "Freight Forwarding KPI & Business Analysis Content",
-          category: "Analytics & Education",
-          description: "Educational explainer videos and technical breakdowns covering freight forwarding formulas, operational KPIs, and supply chain data analytics.",
-          highlights: [
-            "Practical guides on logistics metrics and operational formulas",
-            "Data visualization and reporting concepts using Power BI"
-          ],
-          tags: ["Power BI", "Data Analytics", "Supply Chain KPIs"]
+          tags: ["Business Analysis", "ERP Selection", "Process Design", "YouTube Educator"]
         }
       ],
 
-      // ADD NEW CERTIFICATES HERE (Just copy one line, paste below, and edit!)
       certifications: [
         {
           title: "CargoWise Certified Professional (CCP)",
           issuer: "WiseTech Global",
-          category: "Logistics ERP"
+          category: "Logistics ERP — Highest Tier"
         },
-         {
+        {
           title: "CargoWise Certified Specialist (CCS)",
           issuer: "WiseTech Global",
           category: "Logistics ERP"
@@ -115,50 +140,51 @@
         },
         {
           title: "Analyzing & Visualizing Data with Microsoft Power BI",
-          issuer: "Great Learning",
+          issuer: "Great Learning (Trained)",
           category: "Business Intelligence"
         },
         {
           title: "Project Management",
           issuer: "Great Learning",
-          category: "Management"
+          category: "Project Delivery"
         }
       ],
 
       skills: [
-        "ANSI ASC X12 (004010)",
-        "Altova MapForce & XMLSpy",
-        "CargoWise One",
-        "Google AI Studio",
-        "Prompt & Schema Engineering",
-        "Kotlin & Jetpack Compose",
-        "Microsoft Power BI",
-        "Freight Forwarding Operations",
-        "Ocean & Air Logistics",
-        "Data Validation & QA"
+        "Requirements Gathering & BRDs",
+        "As-Is / To-Be Process Design",
+        "End-to-End Project Implementation",
+        "UAT & Output Validation",
+        "User Manuals & Training",
+        "CargoWise (CCP / CCS / CCO)",
+        "ERP & TMS Workflows",
+        "Pan-India MIS & P&L Analysis",
+        "Debtor & KPI Reporting",
+        "ANSI X12 (004010) Specs",
+        "SQL & Oracle Databases",
+        "Google AI Studio"
       ],
 
-      // Quick Q&A pairs for the built-in interactive assistant
       aiKnowledge: [
         {
-          question: "What EDI transaction sets does Andrews work with?",
-          keywords: ["edi", "x12", "transaction", "message", "4010", "altova"],
-          answer: "Andrews specializes in ANSI ASC X12 (Version 004010) integration using Altova tools—specifically transportation and supply chain sets including 110 (Air Freight Invoice), 210 (Motor Carrier Invoice), 214 (Shipment Status), 310 (Ocean Freight Invoice), 315 (Ocean Status), 850 (Purchase Order), and 856 (ASN)."
+          question: "What is Andrews's core focus as a Senior Business Analyst?",
+          keywords: ["role", "ba", "business analyst", "project", "implementation", "training", "uat"],
+          answer: "Andrews is a Senior Business Analyst specializing in Supply Chain, ERP, and TMS workflows. He owns the full functional lifecycle—from requirement gathering and translating functional specs for developers to leading UAT, validating outputs, authoring user manuals, and conducting end-user training."
         },
         {
-          question: "Tell me about his AI Android apps.",
-          keywords: ["app", "android", "ai", "studio", "cargo", "validator", "surveyor"],
-          answer: "Using Google AI Studio and Jetpack Compose, Andrews built two specialized logistics Android apps: (1) CargoSurveyor, which analyzes multi-angle container and cargo photos to generate structured defect reports, and (2) an ANSI X12 004010 Validator that audits both envelope structure and missing element rules."
+          question: "Tell me about his MIS and financial reporting experience.",
+          keywords: ["mis", "report", "p&l", "debtor", "kpi", "analytics", "sql", "oracle", "power bi"],
+          answer: "Andrews solely spearheaded Pan-India MIS reporting at EFL Global, querying multi-million-record Oracle databases via SQL to deliver executive P&L analysis, debtor/aging analysis, and operational KPI reports. He is also a Google Certified Data Analyst with formal training in Microsoft Power BI."
         },
         {
-          question: "What certifications does he hold?",
-          keywords: ["cert", "certificate", "cargowise", "ccs", "cco", "power bi", "google"],
-          answer: "Andrews holds CargoWise Certified Specialist (CCS) and CargoWise Certified Operator (CCO) credentials from WiseTech Global, the Google Data Analytics Certificate, Analyzing & Visualizing Data with Power BI, AI Fundamentals (University of Helsinki), and Project Management."
+          question: "What certifications and domain credentials does he hold?",
+          keywords: ["cert", "certificate", "cargowise", "ccp", "ccs", "cco", "google"],
+          answer: "Andrews holds the full WiseTech Global trilogy—CargoWise Certified Professional (CCP), Specialist (CCS), and Operator (CCO)—alongside the Google Data Analytics Certificate, Project Management, and Microsoft Power BI training, backed by a PGDM from LIBA."
         },
         {
-          question: "What is his industry background?",
-          keywords: ["background", "experience", "freight", "logistics", "career"],
-          answer: "Andrews has strong domain expertise in the freight forwarding industry, having transitioned from functional support operations into technical EDI integration projects, combining real-world logistics workflows with B2B automation and AI tooling."
+          question: "How does he leverage ANSI X12 and AI tools?",
+          keywords: ["edi", "x12", "app", "android", "ai", "validator", "cargo"],
+          answer: "Andrews translates business rules into structured ANSI X12 (004010) specifications across 65+ global accounts and built two practical validation tools using Google AI Studio: the ANSI X12 EDI Validator app and CargoSurveyor for multi-angle container inspection."
         }
       ]
     };
@@ -168,46 +194,46 @@
   ====================================================================== -->
 
   <!-- Navigation Bar -->
-  <header class="sticky top-0 z-50 bg-slate-950/85 backdrop-blur-md border-b border-slate-800">
+  <header class="sticky top-0 z-50 bg-slate-950/90 backdrop-blur-md border-b border-cyan-950/60">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-      <a href="#" class="text-lg font-bold tracking-tight text-white flex items-center gap-2">
-        <span class="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center text-sm font-extrabold">AR</span>
+      <a href="#" class="text-lg font-bold tracking-tight text-white flex items-center gap-2.5">
+        <span class="w-9 h-9 rounded-lg bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center text-sm font-extrabold text-slate-950 shadow-md shadow-cyan-500/20">AR</span>
         <span id="nav-name">Andrews Rajkumar</span>
       </a>
       <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
-        <a href="#projects" class="hover:text-blue-400 transition">Projects</a>
-        <a href="#certifications" class="hover:text-blue-400 transition">Certifications & Skills</a>
-        <a href="#ask-ai" class="hover:text-blue-400 transition">Ask My AI</a>
-        <a href="#contact" class="px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-white transition">Connect</a>
+        <a href="#projects" class="hover:text-cyan-400 transition">Projects & Impact</a>
+        <a href="#certifications" class="hover:text-cyan-400 transition">Certifications & Skills</a>
+        <a href="#ask-ai" class="hover:text-cyan-400 transition">Ask My AI</a>
+        <a href="#contact" class="px-4 py-2 rounded-lg bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-semibold transition">Connect</a>
       </nav>
     </div>
   </header>
 
   <!-- Hero Section -->
   <section class="relative overflow-hidden pt-16 pb-20 sm:pt-24 sm:pb-28">
-    <div class="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-900/25 via-slate-950 to-slate-950"></div>
+    <div class="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-cyan-900/25 via-slate-950 to-slate-950"></div>
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="max-w-3xl">
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-semibold mb-6">
-          <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
-          <span>Freight Forwarding • EDI Integration • AI App Builder</span>
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/25 text-cyan-300 text-xs font-semibold mb-6">
+          <i data-lucide="award" class="w-3.5 h-3.5 text-cyan-400"></i>
+          <span id="hero-badge">CargoWise (CCP) • Google Certified Data Analyst • Process & Requirements Design</span>
         </div>
         <h1 id="hero-name" class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-4">
           Andrews Rajkumar
         </h1>
-        <h2 id="hero-role" class="text-xl sm:text-2xl font-semibold text-blue-400 mb-6">
-          EDI Integration Specialist & No-Code AI App Builder
+        <h2 id="hero-role" class="text-xl sm:text-2xl font-semibold text-cyan-400 mb-6">
+          Senior Business Analyst | Supply Chain, ERP & TMS Workflows
         </h2>
         <p id="hero-tagline" class="text-slate-300 text-lg leading-relaxed mb-8">
-          Bridging global freight forwarding operations with automated ANSI X12 integrations and multimodal AI solutions.
+          Transforming supply chain, ERP & TMS workflows through end-to-end project implementation, requirements engineering, Pan-India MIS reporting, and ANSI X12 data specifications.
         </p>
         <div class="flex flex-wrap gap-4">
-          <a href="#projects" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold transition shadow-lg shadow-blue-600/20">
-            <span>Explore Projects</span>
+          <a href="#projects" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold transition shadow-lg shadow-cyan-500/20">
+            <span>Explore Work & Projects</span>
             <i data-lucide="arrow-right" class="w-4 h-4"></i>
           </a>
-          <a id="hero-linkedin" href="#" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-100 font-semibold border border-slate-700 transition">
-            <i data-lucide="linkedin" class="w-4 h-4 text-blue-400"></i>
+          <a id="hero-linkedin" href="#" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-100 font-semibold border border-slate-700 transition">
+            <i data-lucide="linkedin" class="w-4 h-4 text-cyan-400"></i>
             <span>LinkedIn Profile</span>
           </a>
         </div>
@@ -223,8 +249,8 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
         <div>
-          <h2 class="text-3xl font-bold text-white mb-2">Featured Projects & Solutions</h2>
-          <p class="text-slate-400">Practical applications built to solve real-world EDI, cargo inspection, and logistics bottlenecks.</p>
+          <h2 class="text-3xl font-bold text-white mb-2">Key Implementations, MIS & Solutions</h2>
+          <p class="text-slate-400">Bridging operational reality and technology through structured requirements, UAT, training, and analytics.</p>
         </div>
         <!-- Filter Buttons -->
         <div id="project-filters" class="flex flex-wrap gap-2"></div>
@@ -239,8 +265,8 @@
   <section id="certifications" class="py-20 bg-slate-900/40 border-t border-slate-900">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="mb-12">
-        <h2 class="text-3xl font-bold text-white mb-2">Certifications & Core Expertise</h2>
-        <p class="text-slate-400">Verified industry credentials across logistics ERP systems, data analytics, and artificial intelligence.</p>
+        <h2 class="text-3xl font-bold text-white mb-2">Certifications & Core Competencies</h2>
+        <p class="text-slate-400">Verified credentials across CargoWise ERP, data analytics, and end-to-end project delivery.</p>
       </div>
 
       <!-- Certifications Grid -->
@@ -249,8 +275,8 @@
       <!-- Technical Stack Tags -->
       <div class="glass-card rounded-2xl p-6 sm:p-8">
         <h3 class="text-lg font-semibold text-white mb-4 flex items-center gap-2">
-          <i data-lucide="cpu" class="w-5 h-5 text-blue-400"></i>
-          <span>Technical & Domain Stack</span>
+          <i data-lucide="layers" class="w-5 h-5 text-cyan-400"></i>
+          <span>Business Analysis, MIS & Domain Stack</span>
         </h3>
         <div id="skills-container" class="flex flex-wrap gap-2.5"></div>
       </div>
@@ -261,12 +287,12 @@
   <section id="ask-ai" class="py-20 border-t border-slate-900">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-10">
-        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold mb-3">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-xs font-semibold mb-3">
           <i data-lucide="bot" class="w-3.5 h-3.5"></i>
           <span>Interactive Profile Assistant</span>
         </span>
         <h2 class="text-3xl font-bold text-white mb-2">Ask About My Experience</h2>
-        <p class="text-slate-400">Click a quick question below or type a topic (e.g., EDI, CargoWise, Android apps, certifications).</p>
+        <p class="text-slate-400">Click a quick question below or type a topic (e.g., Business Analysis, MIS, CargoWise CCP, X12).</p>
       </div>
 
       <div class="glass-card rounded-2xl overflow-hidden shadow-2xl">
@@ -276,11 +302,11 @@
         <!-- Chat Messages Window -->
         <div id="chat-messages" class="p-6 space-y-4 max-h-80 overflow-y-auto">
           <div class="flex items-start gap-3">
-            <div class="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center shrink-0 mt-0.5">
-              <i data-lucide="bot" class="w-4 h-4 text-white"></i>
+            <div class="w-8 h-8 rounded-full bg-cyan-500 flex items-center justify-center shrink-0 mt-0.5">
+              <i data-lucide="bot" class="w-4 h-4 text-slate-950"></i>
             </div>
             <div class="bg-slate-800/90 rounded-2xl rounded-tl-none px-4 py-3 text-sm text-slate-200 leading-relaxed">
-              Hello! I'm Andrews's portfolio assistant. Ask me about his ANSI X12 EDI integration projects, CargoWise certifications, or the Android apps he built with Google AI Studio.
+              Hello! I'm Andrews's portfolio assistant. Ask me about his Senior Business Analyst background, full-lifecycle project implementations, Pan-India MIS reporting, or CargoWise CCP credentials.
             </div>
           </div>
         </div>
@@ -290,12 +316,12 @@
           <input
             id="chat-input"
             type="text"
-            placeholder="Ask about EDI 4010, CargoSurveyor app, or certifications..."
-            class="flex-1 bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-blue-500"
+            placeholder="Ask about project implementation, MIS reporting, or CargoWise CCP..."
+            class="flex-1 bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-cyan-500"
           />
           <button
             type="submit"
-            class="px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold transition flex items-center gap-2"
+            class="px-5 py-2.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 text-sm font-bold transition flex items-center gap-2"
           >
             <span>Ask</span>
             <i data-lucide="send" class="w-4 h-4"></i>
@@ -310,10 +336,10 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-6">
       <div>
         <p class="text-white font-bold text-lg" id="footer-name">Andrews Rajkumar</p>
-        <p class="text-slate-400 text-sm">Freight Forwarding • EDI Integration • AI Solutions</p>
+        <p class="text-slate-400 text-sm">Senior Business Analyst • Supply Chain, ERP & TMS • CargoWise (CCP)</p>
       </div>
       <div class="flex items-center gap-4">
-        <a id="footer-linkedin" href="#" target="_blank" rel="noopener noreferrer" class="p-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-blue-400 border border-slate-800 transition" title="LinkedIn">
+        <a id="footer-linkedin" href="#" target="_blank" rel="noopener noreferrer" class="p-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-cyan-400 border border-slate-800 transition" title="LinkedIn">
           <i data-lucide="linkedin" class="w-5 h-5"></i>
         </a>
         <a id="footer-github" href="#" target="_blank" rel="noopener noreferrer" class="p-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-white border border-slate-800 transition" title="GitHub">
@@ -334,6 +360,7 @@
     // 1. Populate Profile Info
     document.getElementById("nav-name").textContent = PORTFOLIO_DATA.profile.name;
     document.getElementById("hero-name").textContent = PORTFOLIO_DATA.profile.name;
+    document.getElementById("hero-badge").textContent = PORTFOLIO_DATA.profile.badge;
     document.getElementById("hero-role").textContent = PORTFOLIO_DATA.profile.role;
     document.getElementById("hero-tagline").textContent = PORTFOLIO_DATA.profile.tagline;
     document.getElementById("footer-name").textContent = PORTFOLIO_DATA.profile.name;
@@ -350,7 +377,7 @@
       statsGrid.innerHTML += `
         <div class="glass-card rounded-xl p-4">
           <div class="text-2xl font-extrabold text-white">${stat.value}</div>
-          <div class="text-xs font-medium text-slate-400 mt-1">${stat.label}</div>
+          <div class="text-xs font-medium text-cyan-300/80 mt-1">${stat.label}</div>
         </div>
       `;
     });
@@ -368,7 +395,7 @@
         btn.textContent = cat;
         btn.className = `px-4 py-1.5 rounded-lg text-xs font-semibold transition ${
           isActive
-            ? "bg-blue-600 text-white"
+            ? "bg-cyan-500 text-slate-950"
             : "bg-slate-900 text-slate-300 hover:bg-slate-800 border border-slate-800"
         }`;
         btn.onclick = () => {
@@ -390,7 +417,7 @@
       filtered.forEach(project => {
         const highlightsHtml = project.highlights.map(h => `
           <li class="flex items-start gap-2 text-xs text-slate-300">
-            <i data-lucide="check-circle-2" class="w-4 h-4 text-blue-400 shrink-0 mt-0.5"></i>
+            <i data-lucide="check-circle-2" class="w-4 h-4 text-cyan-400 shrink-0 mt-0.5"></i>
             <span>${h}</span>
           </li>
         `).join("");
@@ -400,10 +427,10 @@
         `).join("");
 
         grid.innerHTML += `
-          <div class="glass-card rounded-2xl p-6 flex flex-col justify-between hover:border-blue-500/40 transition">
+          <div class="glass-card rounded-2xl p-6 flex flex-col justify-between transition">
             <div>
               <div class="flex items-center justify-between gap-2 mb-3">
-                <span class="px-2.5 py-1 rounded-md bg-blue-500/10 text-blue-400 text-xs font-semibold border border-blue-500/20">
+                <span class="px-2.5 py-1 rounded-md bg-cyan-500/10 text-cyan-300 text-xs font-semibold border border-cyan-500/20">
                   ${project.category}
                 </span>
               </div>
@@ -427,12 +454,12 @@
     const certsGrid = document.getElementById("certs-grid");
     PORTFOLIO_DATA.certifications.forEach(cert => {
       certsGrid.innerHTML += `
-        <div class="glass-card rounded-xl p-5 flex items-start gap-3.5">
-          <div class="w-10 h-10 rounded-lg bg-blue-500/10 border border-blue-500/20 flex items-center justify-center shrink-0">
-            <i data-lucide="award" class="w-5 h-5 text-blue-400"></i>
+        <div class="glass-card rounded-xl p-5 flex items-start gap-3.5 transition">
+          <div class="w-10 h-10 rounded-lg bg-cyan-500/10 border border-cyan-500/25 flex items-center justify-center shrink-0">
+            <i data-lucide="award" class="w-5 h-5 text-cyan-400"></i>
           </div>
           <div>
-            <span class="text-[11px] uppercase tracking-wider font-semibold text-blue-400">${cert.category}</span>
+            <span class="text-[11px] uppercase tracking-wider font-semibold text-cyan-400">${cert.category}</span>
             <h4 class="text-sm font-bold text-white mt-0.5 leading-snug">${cert.title}</h4>
             <p class="text-xs text-slate-400 mt-1">${cert.issuer}</p>
           </div>
@@ -460,7 +487,7 @@
       const btn = document.createElement("button");
       btn.type = "button";
       btn.textContent = item.question;
-      btn.className = "text-xs px-3 py-1.5 rounded-full bg-slate-800 hover:bg-blue-600/20 hover:text-blue-300 text-slate-300 border border-slate-700 transition";
+      btn.className = "text-xs px-3 py-1.5 rounded-full bg-slate-800 hover:bg-cyan-500/20 hover:text-cyan-300 text-slate-300 border border-slate-700 transition";
       btn.onclick = () => handleUserQuery(item.question);
       suggestedContainer.appendChild(btn);
     });
@@ -471,14 +498,14 @@
 
       if (isUser) {
         wrapper.innerHTML = `
-          <div class="bg-blue-600 text-white rounded-2xl rounded-tr-none px-4 py-2.5 text-sm max-w-md">
+          <div class="bg-cyan-500 text-slate-950 font-medium rounded-2xl rounded-tr-none px-4 py-2.5 text-sm max-w-md">
             ${text}
           </div>
         `;
       } else {
         wrapper.innerHTML = `
-          <div class="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center shrink-0 mt-0.5">
-            <i data-lucide="bot" class="w-4 h-4 text-white"></i>
+          <div class="w-8 h-8 rounded-full bg-cyan-500 flex items-center justify-center shrink-0 mt-0.5">
+            <i data-lucide="bot" class="w-4 h-4 text-slate-950"></i>
           </div>
           <div class="bg-slate-800/90 rounded-2xl rounded-tl-none px-4 py-3 text-sm text-slate-200 leading-relaxed max-w-lg">
             ${text}
@@ -494,7 +521,6 @@
       appendMessage(query, true);
       const lower = query.toLowerCase();
 
-      // Match against knowledge base
       let matched = PORTFOLIO_DATA.aiKnowledge.find(item =>
         item.question.toLowerCase() === lower ||
         item.keywords.some(kw => lower.includes(kw))
@@ -502,7 +528,7 @@
 
       const reply = matched
         ? matched.answer
-        : `Andrews specializes in ANSI X12 EDI integration (004010), CargoWise operations, and building no-code AI Android apps using Google AI Studio. Feel free to connect on LinkedIn (${PORTFOLIO_DATA.profile.linkedin}) for direct inquiries!`;
+        : `Andrews is a Senior Business Analyst specializing in Supply Chain, ERP & TMS workflows, CargoWise (CCP), Pan-India MIS reporting, and ANSI X12 functional specifications. Connect on LinkedIn (${PORTFOLIO_DATA.profile.linkedin}) for direct inquiries!`;
 
       setTimeout(() => appendMessage(reply, false), 250);
     }
@@ -520,3 +546,4 @@
   </script>
 </body>
 </html>
+Processed and analysed in code
